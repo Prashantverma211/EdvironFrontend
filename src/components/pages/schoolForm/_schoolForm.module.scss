@@ -1,0 +1,56 @@
+@import "../../../index.module.scss";
+
+.school_form {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  & h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: $Violet;
+  }
+
+  & form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 1.5rem;
+    color: $MediumGray;
+  }
+
+  & input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  & button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}

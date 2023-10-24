@@ -1,0 +1,47 @@
+@import "../../../index.module.scss";
+
+.menu {
+  width: 20%;
+  min-width: 15rem;
+  text-align: left;
+}
+h3 {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.menuBar_container {
+  display: flex;
+  flex-direction: column;
+
+  & ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  & li {
+    display: inline;
+    width: 100%;
+  }
+
+  & a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+.lucide_icon {
+  color: $MediumGray;
+}

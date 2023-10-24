@@ -1,0 +1,15 @@
+.active {
+  & div {
+    background-color: rebeccapurple;
+    padding: 0.3rem 0;
+    border-radius: 5px;
+
+    & h3 {
+      color: white;
+    }
+
+    & svg {
+      color: white;
+    }
+  }
+}
